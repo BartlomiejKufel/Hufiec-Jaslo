@@ -1,0 +1,64 @@
+body{
+	background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 400;
+	margin: 20px;
+	text-align: center;
+	
+}
+
+
+.bg-side{
+	background-color: #718C0F !important;
+}
+
+.dropdown-item:hover{
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.hufiec{
+	text-align: center;
+}
+
+.hufiec img{
+	width: 100%;
+	height:auto;
+}
+
+.hufiec figcaption{
+	margin-top: 8px;
+}
+
+.wpis{
+	text-align: justify;
+	font-size: 16px;
+	padding: 30px;
+}
+
+.info{
+	text-align: left;
+	font-size: 18px;
+}
+
+footer{
+	background-color: #718C0F !important;
+}
+
+.glownyart{
+	/*background-color: rgb(132, 160, 18);*/
+	background-color: white;
+	box-shadow: 0 0 20px black;
+	border: 1px solid grey;
+	border-radius: 20px;
+}
+
+
+
+
+
