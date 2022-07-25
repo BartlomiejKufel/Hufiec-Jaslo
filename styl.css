@@ -2,6 +2,7 @@ body{
 	background-color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
+	overflow: auto;
 }
 
 h1{
@@ -58,7 +59,21 @@ footer{
 	border-radius: 20px;
 }
 
+.dropdown-navex{
+	
+	background-color: #718C0F !important;
+	border-radius: 0 0 10px 10px;
+	margin-top: 7px;
+}
 
+img {
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 
 
 
