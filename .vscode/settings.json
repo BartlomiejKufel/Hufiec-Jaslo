@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e7c5794a-6efd-421d-a57e-207957bf5ad1/appservices/subscriptions/e7c5794a-6efd-421d-a57e-207957bf5ad1/resourceGroups/AppServiceQS-rg/providers/Microsoft.Web/sites/Hufiec-Jaslo",
+    "appService.deploySubpath": "."
+}

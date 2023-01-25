@@ -1,8 +1,117 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+	background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+	overflow: auto;
 }
 
-a {
-  color: #00B7FF;
+h1{
+	font-size: 36px;
+	font-weight: 400;
+	margin: 20px;
+	text-align: center;
+	
 }
+
+
+.bg-side{
+	background-color: #718C0F !important;
+}
+
+.dropdown-item:hover{
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.hufiec{
+	text-align: center;
+}
+
+.hufiec img{
+	width: 100%;
+	height:auto;
+}
+
+.hufiec figcaption{
+	margin-top: 8px;
+}
+
+.wpis{
+	text-align: justify;
+	font-size: 16px;
+	padding: 30px;
+}
+
+.info{
+	text-align: left;
+	font-size: 18px;
+}
+
+footer{
+	background-color: #718C0F !important;
+}
+
+.glownyart{
+	/*background-color: rgb(132, 160, 18);*/
+	background-color: white;
+	box-shadow: 0 0 20px black;
+	border: 1px solid grey;
+	border-radius: 20px;
+}
+
+.dropdown-navex{
+	
+	background-color: #718C0F !important;
+	border-radius: 0 0 10px 10px;
+	margin-top: 7px;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+@media screen and (max-width: 991px) {
+	.columns {
+	  height: 100px;
+	  overflow-y: scroll;
+	}
+  }
+  
+  @media screen and (min-width: 992px) {
+	.columns {
+	  -moz-column-count: 2;
+	  /* Firefox */
+	  -webkit-column-count: 2;
+	  /* Safari and Chrome */
+	  column-count: 2;
+	  width: 500px;
+	  height:170px;
+	}
+  }
+
+  table{
+	text-align: center;
+	
+  }
+
+  .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .druzynowy{
+	border: 4px dashed rgb(12, 12, 111); 
+	border-radius: 15px;
+	padding: 6px;
+	font-size: 19px;
+  }
+  
+  .dh-166{
+	border: 1px solid black;
+	background:conic-gradient(black 0deg 180deg, rgb(255, 255, 0) 180deg 360deg);
+  }
