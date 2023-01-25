@@ -29,3 +29,18 @@
     border: 3px solid conic-gradient(#aa1c20 0deg 180deg, black 180deg 360deg);
 	background:conic-gradient(black 0deg 180deg, #aa1c20 180deg 360deg);
   }
+
+  .komendant{
+    border: 4px dashed #C0C0C0; 
+    outline: 4px dashed #C0C0C0;
+	  border-radius: 15px;
+	  padding: 6px;
+	  font-size: 19px;
+  }
+
+  .kadraHufca{
+    border: 4px dashed #C0C0C0; 
+	  border-radius: 15px;
+	  padding: 6px;
+	  font-size: 19px;
+  }

@@ -14,4 +14,13 @@ router.get('/kontakt', function(req, res, next) {
     })
 });
 
+
+router.get('/kadra', function(req, res, next) {
+  res.render('cadre', {
+    title: "Kadra | Hufiec Jasło",
+    
+    })
+});
+
+
 module.exports = router;
