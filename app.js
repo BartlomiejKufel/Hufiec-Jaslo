@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const mongoose = require('mongoose')
+
 
 
 
@@ -23,7 +23,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-mongoose.connect('mongodb://hufiec-jaslo:jI22YU2nDqm9TR4AcQGp5I0gSKchOY72BVcNH58fb4meNINyjx6REzj4JJMpj6UqbB7bR7HILl8HACDbQX4TLA==@hufiec-jaslo.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@hufiec-jaslo@')
 
   
 
