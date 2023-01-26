@@ -36,6 +36,8 @@
 	  border-radius: 15px;
 	  padding: 6px;
 	  font-size: 19px;
+    box-shadow: inset 0px 0px 15px #C0C0C0;
+
   }
 
   .kadraHufca{
@@ -43,4 +45,5 @@
 	  border-radius: 15px;
 	  padding: 6px;
 	  font-size: 19px;
+    box-shadow: inset 0px 0px 15px #C0C0C0;
   }
